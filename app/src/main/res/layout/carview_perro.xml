@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/cardview_cardCornerRadius">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/cardview_padding_linearLayout">
+    <ImageView
+        android:id="@+id/imageViewFotoPerroCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/perro1"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imagenButtonFavoritosCardView"
+            android:layout_width="@dimen/cardview_ancho_iconos"
+            android:layout_height="@dimen/cardview_alto_iconos"
+            android:layout_marginRight="@dimen/cardview_padding_linearLayout"
+            android:background="@drawable/dog_bone_48"/>
+        <TextView
+            android:id="@+id/textViewNombrePerroCardView"
+            android:layout_width="@dimen/cardview_ancho_nombre_perro"
+            android:layout_height="@dimen/cardview_alto_iconos"
+            android:text="@string/nombre_perro"
+            android:textSize="@dimen/cardview_tamano_texto"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/cardview_margen_derecho"
+            android:layout_marginTop="@dimen/margen_texto_top"/>
+        <TextView
+            android:id="@+id/textViewFavoritoCardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/raiting_perro"
+            android:textSize="@dimen/cardview_tamano_texto"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margen_texto_top"
+            />
+        <ImageView
+            android:id="@+id/imagenViewRaitingCardView"
+            android:layout_width="@dimen/cardview_ancho_iconos"
+            android:layout_height="@dimen/cardview_alto_iconos"
+            android:layout_marginLeft="@dimen/cardview_padding_linearLayout"
+            android:background="@drawable/dog_bone_50"/>
+    </LinearLayout>
+</LinearLayout>
+    </android.support.v7.widget.CardView>
