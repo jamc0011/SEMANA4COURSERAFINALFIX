@@ -15,6 +15,14 @@
     <dimen name="cardview_padding_linearLayout">10dp</dimen>
     <dimen name="cardview_tamano_texto">22dp</dimen>
     <dimen name="margen_texto_top">10dp</dimen>
+    <dimen name="cv_margin">5dp</dimen>
+    <dimen name="cv_fotos_profile_margin_bottom">16dp</dimen>
+    <dimen name="textSize_foto_profile">20sp</dimen>
+    <dimen name="imagen_circular_width">150dp</dimen>
+    <dimen name="imagen_circular_height">150dp</dimen>
+    <dimen name="civ_border_width">3dp</dimen>
+    <dimen name="profile_margin_top">5dp</dimen>
+    <dimen name="profile_margin_bottom">10dp</dimen>
 
 </resources>
 
