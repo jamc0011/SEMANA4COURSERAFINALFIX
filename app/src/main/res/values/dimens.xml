@@ -6,7 +6,7 @@
     <dimen name="cardview_margen_derecho">30dp</dimen>
     <dimen name="actionbar_tamano_icono">25dp</dimen>
     <dimen name="actionbar_padding">75dp</dimen>
-    <dimen name="actionbar_tamano_icono2">40dp</dimen>
+    <dimen name="actionbar_tamano_icono2">35dp</dimen>
     <dimen name="actionbar_padding_izquierdo">30dp</dimen>
     <dimen name="cardview_ancho_iconos">40dp</dimen>
     <dimen name="cardview_alto_iconos">40dp</dimen>
@@ -14,7 +14,7 @@
     <dimen name="cardview_cardCornerRadius">4dp</dimen>
     <dimen name="cardview_padding_linearLayout">10dp</dimen>
     <dimen name="cardview_tamano_texto">22dp</dimen>
-   <dimen name="margen_texto_top">10dp</dimen>
+    <dimen name="margen_texto_top">10dp</dimen>
 
 </resources>
 

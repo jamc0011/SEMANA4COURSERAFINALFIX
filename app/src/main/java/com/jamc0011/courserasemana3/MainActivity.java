@@ -67,11 +67,14 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.mContacto:
                 //intent para ir a otra pantalla
-                Toast.makeText(this,"REFRESCADO", Toast.LENGTH_LONG).show();
+                Intent inten = new Intent(this, ContactoMail.class);
+                startActivity(inten);
                 break;
             //INTEGRANDO ACTION VIEW
             case R.id.mAcerdade:
-                Toast.makeText(this,"REFRESCADO", Toast.LENGTH_LONG).show();
+                //intent para ir a otra pantalla
+                Intent inte = new Intent(this, AcercaDe.class);
+                startActivity(inte);
                 break;
         }
 

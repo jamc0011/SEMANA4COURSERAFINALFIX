@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
+import android.view.View;
 
 import com.jamc0011.courserasemana3.adapter.PerroAdapter;
 import com.jamc0011.courserasemana3.pojo.Perro;
@@ -22,6 +23,11 @@ public class FavoritoActivity extends AppCompatActivity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_favorito);
+
+        //Mi Action Bar
+        Toolbar miActionBar = (Toolbar) findViewById(R.id.actionBarMain);
+        setSupportActionBar(miActionBar);
+
         listaPerrosFavoritos = (RecyclerView) findViewById(R.id.recyclerViewMascotasRaiting);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
@@ -30,6 +36,16 @@ public class FavoritoActivity extends AppCompatActivity{
         inicializarAdapter();
 
     }
+    public void irMainActivityDos(View v) {
+        Intent itent = new Intent(this, MainActivity.class);
+        startActivity(itent);
+    }
+
+    public void irFavoritosPerros(View view){
+        Intent intent = new Intent(this, FavoritoActivity.class);
+        startActivity(intent);
+    }
+
 
     public void inicializarListaDePerrosFavoritos(){
 

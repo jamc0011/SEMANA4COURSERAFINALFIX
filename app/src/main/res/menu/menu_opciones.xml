@@ -25,7 +25,7 @@
 
     <item android:id="@+id/mAcerdade"
         android:title="@string/menu_acerdade"
-        android:orderInCategory="3"
+        android:orderInCategory="4"
         ></item>
 
 

@@ -34,7 +34,7 @@ public class PerfilFragment extends Fragment{
 
 
 
-        StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
+        StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
         listaPerros.setLayoutManager(staggeredGridLayoutManager);
         inicializarListaDePerrosDos();
         inicializarAdapterDos();
@@ -54,6 +54,15 @@ public class PerfilFragment extends Fragment{
         perros.add(new Perro("Lucky","3", R.drawable.perro6));
         perros.add(new Perro("Juno","3", R.drawable.perro7));
         perros.add(new Perro("Pepe","4.2", R.drawable.perro8));
+        perros.add(new Perro("Dina","5", R.drawable.perro1));
+        perros.add(new Perro("Diente","4", R.drawable.perro2));
+        perros.add(new Perro("Canela","4.5", R.drawable.perro3));
+        perros.add(new Perro("Chispa","3", R.drawable.perro4));
+        perros.add(new Perro("Lucky","3", R.drawable.perro6));
+        perros.add(new Perro("Juno","3", R.drawable.perro7));
+        perros.add(new Perro("Pepe","4.2", R.drawable.perro8));
+        perros.add(new Perro("Buzz","4.6", R.drawable.perro9));
+
 
 
     }
